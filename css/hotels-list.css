@@ -1,0 +1,150 @@
+/* HOTELS LIST styles */
+.heading {
+  margin-bottom: 23px;
+  margin-left: 38px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.hotels {
+  margin-bottom: 68px;
+}
+.hotels-item__info {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+  padding: 5px 44px 5px 44px;
+}
+
+
+.hotels-item__price {
+  margin-right: 77px;
+  margin-bottom: 20px;
+}
+
+.hotels-item__star {
+  align-self: center;
+  margin-left: 50px;
+}
+.star__star-pic{
+  width: 12px;
+}
+
+.hotels-list__hotels-item {
+  margin-bottom: 25px;
+  min-height: 441px;
+  line-height: 18px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+/* .hotels-list__hotels-item:nth-child(3n) {
+  margin-right: 0;
+}
+.hotels-list__hotels-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+.hotels-list__hotels-item:last-child {
+  margin-right: 0;
+} */
+
+.hotels__hotels-list {
+  display: flex;
+  align-content: space-between;
+  flex-flow: row wrap;
+}
+
+.hotels-item__pic {
+  margin-bottom: 30px;
+}
+
+.white-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-width: 100px;
+  min-height: 41px;
+  border: 1px solid var(--dark-yellow-color);
+  border-radius: 12px;
+  color: var(--dark-yellow-color);
+  font-weight: 700;
+  background-color: #fff;
+  transition-property: color, background-color;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+  
+}
+
+
+.white-button:hover {
+  color: white;
+  background-color: var(--dark-yellow-color);
+  
+}
+
+.hotels-list__all-options {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-image: url("../img/графика/jpg/41.jpg");
+  background-repeat: no-repeat;
+  width: 373px;
+  min-height: 441px;
+ 
+}
+
+.all-options__link {
+  padding-left: 39px;
+  padding-bottom: 40px;
+  width: 300px;
+  box-sizing: content-box;
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  background-image: url("../img/графика/svg/arrow-white.svg");
+  background-size: 11px;
+  background-position: 325px 6px;
+  background-repeat: no-repeat; 
+  transition-property: color, background-image;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+
+.all-options__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+}
+.all-options__link:hover {
+  background-image: url("../img/графика/svg/arrow.svg");
+}
+.price__part2 {
+  font-size: 22px;
+}
+
+.location-info__name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hotels-item__price {
+  margin: 0;
+}
+
+.location-info__location {
+  margin: 0;
+  width: 283px;
+  font-size: 16px;
+  color: #999;
+}
+
+.hotels-item__button-block {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}

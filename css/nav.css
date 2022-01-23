@@ -1,0 +1,61 @@
+/* NAV styles */
+
+.nav-container {
+  display: flex;
+  flex-flow: row;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  padding-bottom: 11px;
+  padding-left: 19px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.nav-container__nav-list {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-left: 0;
+  font-weight: 500;
+}
+.nav-list__nav-item {
+  padding-top: 19px;
+  white-space: nowrap;
+}
+.nav-list__nav-item:not(:last-child) {
+  margin-right: 43px;
+}
+.nav-item__link {
+  color: #333;
+}
+
+/* SEARCH-BOX styles */
+
+.search-box__button {
+  margin-right: 30px;
+  width: 22px;
+  min-height: 22px;
+  background-image: url("../img/графика/svg/search.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;  
+  background-size: 22px;
+  border: 0;
+  cursor: pointer;
+  transform: translate(10px, 8px);
+} 
+.search-box__button:hover {
+  filter: drop-shadow(0 0 1px rgb(41, 40, 40));
+}
+.nav-container__search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 139px;
+  width: 369px;
+}
+
+.search-box__input {
+  width: 300px;
+  height: 25px;
+}

@@ -1,0 +1,46 @@
+/* HEADER styles */
+.heading {
+  margin-bottom: 23px;
+  margin-left: 38px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.logo__pic {
+  width: 261px;
+}
+.logo__pic:hover {
+  filter: drop-shadow(0 0 10px rgb(165, 160, 160));
+  cursor: pointer;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+.header-container__logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.logo__number {
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 22px;
+  white-space: nowrap;
+  color: #000;
+}
+
+.logo__user-link {
+  padding-left: 30px;
+  background-image: url("../img/графика/svg/keyboard-tab-yellow.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  transition-property: background-image, color;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+
+.logo__user-link:hover {
+  background-image: url('../img/графика/svg/keyboard_tab.svg');
+ 
+}

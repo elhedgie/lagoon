@@ -1,0 +1,71 @@
+/* special offer styles*/
+.heading {
+  margin-bottom: 23px;
+  margin-left: 38px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.quick-ord-block {
+  padding-left: 0;
+}
+.special-offer-block {
+  padding-right: 0;
+}
+
+.special-offer {
+  display: inline-flex;
+  flex-flow: column;
+  padding-top: 260px;
+  padding-left: 40px;
+  padding-right: 135px;
+  padding-bottom: 4px;
+  width: 100%;
+  background-image: url("../img/графика/jpg/22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.special-offer__offer-box {
+  display: flex;
+  flex-flow: column;
+  min-height: 540px;
+ 
+}
+
+.offer-box__heading {
+  width: 369px;
+  font-size: 66px;
+  line-height: 58px;
+  color: #fff;
+}
+.offer-box__price {
+  display: flex;
+  align-items: center;
+}
+.price__price-range {
+  margin-left: 40px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+  opacity: .7;
+}
+
+.price__details-link {
+  margin-left: 52px;
+  padding-right: 15px;
+  background-image: url("../img/графика/svg/arrow.svg");
+  background-size: 8px;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: var(--light-yellow-color);
+  transition-property: color, background-image;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+.price__details-link:hover {
+  color: var(--dark-yellow-color);
+  background-image: url("../img/графика/svg/arrow22.svg");
+}
+

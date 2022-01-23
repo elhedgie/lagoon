@@ -1,0 +1,86 @@
+/* ADVANTAGES styles */
+.heading {
+  margin-bottom: 23px;
+  margin-left: 38px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.advantages {
+  margin-bottom: 70px;
+}
+.advantages__advantages_list {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 22px;
+  padding: 0;
+}
+
+.advantages-list__advantages-item {
+  margin-bottom: 24px;
+  width: 275px;
+  min-height: 275px;
+  background-position: 44px 44px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.advantages-list__advantages-item:hover {
+  transform: scale(1.05);
+  transition-duration: .4s;
+  transition-timing-function: ease;
+  cursor: default;
+}
+/* .advantages-list__advantages-item:nth-child(4n) {
+  margin-right: 0
+}
+.advantages-list__advantages-item:last-child {
+  margin-right: 0
+}
+.advantages-list__advantages-item:nth-last-child(-n+4) {
+  margin-bottom: 0;
+} */
+.icon-bathtub {
+  background-image: url("../img/графика/svg/bathtub.svg");
+  background-size: 63px;
+}
+
+.icon-hanger {
+  background-image: url("../img/графика/svg/hanger.svg");
+  background-size: 60px;
+}
+
+.icon-heating {
+  background-image: url("../img/графика/svg/heating.svg");
+  background-size: 69px;
+}
+
+.icon-hotel-key {
+  background-image: url("../img/графика/svg/hotel-key.svg");
+  background-size: 64px;
+}
+
+.icon-parking {
+  background-image: url("../img/графика/svg/parking.svg");
+  background-size: 61px;
+}
+
+.icon-reception {
+  background-image: url("../img/графика/svg/reception.svg");
+  background-size: 64px;
+}
+
+.icon-security-box {
+  background-image: url("../img/графика/svg/security-box.svg");
+  background-size: 68px;
+}
+
+.icon-swimming-pool {
+  background-image: url("../img/графика/svg/swimming-pool.svg");
+  background-size: 60px;
+}
+  
+.advantages-item__text {
+  margin: 0;
+  padding: 123px 46px 24px 44px;
+}

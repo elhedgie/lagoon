@@ -1,0 +1,90 @@
+
+/* Common styles */
+:root {
+  --light-yellow-color: #ffcc66;
+  --dark-yellow-color: #cc9933;
+  --button-hover-color: #b9853b;
+}
+html {
+  box-sizing: border-box;
+} /* делает так, чтобы ширина высота вмещали в себя бордер и внутренние отступы, без внешних */
+
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+} /* то же самое, только для псевдоэлементов before и after */
+ 
+body {
+  min-width: 1200px; 
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Muller", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #333;
+} /* дефолтные параметры контента  в body, которые наследуются блоками по умолчанию (не всеми) */
+
+img {
+  max-width: 100%;
+} /* максимальный размер картинок на всей странице - 100% */
+
+a {
+  text-decoration: none;
+  color: var(--dark-yellow-color);
+} /* дефолтные параметры ссылок */
+
+
+a:visited {
+  text-decoration: none;
+} 
+a:focus {
+  outline: 1px solid var(--dark-yellow-color)  ;
+}
+.link-hover { 
+  transition: color .4s ease;
+}
+.link-hover:hover {
+  color: var(--light-yellow-color);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} /* дефолтные параметры контейнера: размер и центровка */
+
+.list-reset {
+  margin: 0; /* в преимуществах нужен марджин 0 для карточек*/
+  padding: 0;
+  list-style-type: none;
+} 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px,1px,1px,1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+} /* настройки скрытого заголовка, первое правило clip - для IE 6 и 7 версий */
+
+.input-reset, .button-reset {
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus, textarea:focus {
+  box-shadow: rgb(112, 110, 110) 0 0 16px;
+
+  transition-duration: .4s;
+  transition-timing-function: ease;
+}
+
+.row {
+  margin: 0;
+}

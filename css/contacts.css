@@ -1,0 +1,106 @@
+.contacts-item__heading {
+    min-width: 149px;
+    font-size: 22px;
+    margin: 0;
+    color: #666;
+}
+
+.contacts__contacts-container {
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.contacts-container__contacts-info {
+    flex-flow: column;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+}
+.contacts-info__contacts-item {
+    display: flex;
+    padding: 26px 1px 26px 1px;
+    border-bottom: solid 1px #ccc;
+}
+
+.contacts-item__address-info {
+    margin: 0;
+    line-height: 24px;
+}
+
+.contacts-item__number-block {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.contacts-item__emails-block {
+  line-height: 24px;
+  color: #666;
+}
+
+.email-block__email-info {
+    margin: 0;
+    width: 235px;
+}
+
+.contacts-item__schedule-info {
+  margin: 0;
+  line-height: 24px;
+}
+
+/* question form styles */
+
+.question-form__heading  {
+    margin-left: 0;
+    margin-top: 47px;
+}
+.question-form__question-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.question-block__input {
+    min-width: 304px;
+    min-height: 70px;
+    padding: 27px 21px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 12px;
+}
+
+.question-form {
+  padding-left: 40px;
+}
+
+.question-block__textarea {
+    margin-top: 23px;
+    margin-bottom: 29px;
+    padding: 20px 16px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+}
+.question-form__documentation-alert {
+    margin-top: 0;
+    margin-bottom: 41px;
+    width: 633px;
+    color: #666;
+}
+.contacts-info__route-btn-block {
+    margin: 36px 0 44px 0;
+}
+
+.route-btn-block__route-btn {
+    padding: 15px 20px 15px 20px;
+    min-width: 215px;  
+    min-height: 70px;
+}
+
+.question-form__submit-btn {
+    margin-bottom: 44px;
+    min-width: 340px;
+    border: none;
+
+}

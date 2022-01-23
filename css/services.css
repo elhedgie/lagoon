@@ -1,0 +1,79 @@
+/* SERVICES styles */
+.heading {
+  margin-bottom: 23px;
+  margin-left: 38px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.services {
+  margin-bottom: 70px;
+}
+
+.services-list__services-item {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 24px;
+  padding-top: 190px;
+  min-height: 325px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 12px;
+}
+/* .services-list__services-item:nth-child(2n+1) {
+  margin-right: 24px;
+}
+
+.services-list__services-item:last-child {
+  margin-right: 0;
+}
+
+.services-list__services-item:nth-last-child(-n+2) {
+  margin-bottom: 0;
+} */
+.exclusive {
+  background-image: url("../img/графика/jpg/10.jpg");
+}
+
+.rent {
+  background-image: url("../img/графика/jpg/12.jpg");
+}
+
+.sport {
+  background-image: url("../img/графика/jpg/15.jpg");
+}
+
+.parking {
+  background-image: url("../img/графика/jpg/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg");
+}
+
+.services-item__heading {
+  position: relative;
+  padding-left: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: 10px;
+}
+
+
+.services-heading__arrow {
+  width: 10px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../img/графика/svg/arrow22.svg");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  transform: translate(10px, 3px);
+  transition: transform .4s ease;
+
+}
+.services-item__heading:hover .services-heading__arrow {
+  transform: translate(15px, 3px);
+}
+.services-item__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3px 130px 35px 45px;
+}
+  

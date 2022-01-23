@@ -1,0 +1,101 @@
+
+.footer__footer-container {
+    flex-flow: nowrap;
+    margin-top: 22px;
+    padding-top: 47px;
+    min-height: 338px; 
+    background-color: #333;
+    background-image: url("../img/графика/png/sun1.png");
+    background-repeat: no-repeat;
+    background-size: 258px;
+    background-position: 734px 133px;
+    border-radius: 12px;
+    color: #fff;
+}
+.footer-container__copyrights {
+   
+    padding-left: 52px;
+    padding-right: 78px;
+}
+
+.copyrights__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.footer-container__contacts {
+    padding-left: 78px;
+
+}
+.contacts__address {
+    margin-top:0;
+    margin-bottom: 30px;
+}
+.contacts__link-block {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.link-block__link {
+    white-space: nowrap;
+}
+.contacts__email-block {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 24px;
+}
+.email-block__email-link {
+    white-space: nowrap;
+}
+.footer-container__socials {
+    padding-left: 314px;
+}
+.socials__socials-list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.socials-list__socials-item {
+    margin: 0;
+}
+.socials-list__socials-item:not(:last-child) {
+    margin-bottom: 21px;
+}
+.socials-item__link {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    transition: filter .4s ease-in-out;
+    
+}
+
+.trip-advisor {
+    background-image: url("../img/графика/svg/tripadvisor.svg");
+}
+
+.twitter {
+    background-image: url("../img/графика/svg/twitter.svg");
+}
+
+.facebook {
+    background-image: url("../img/графика/svg/facebook.svg");
+}
+
+.vkontakte{
+    background-image: url("../img/графика/svg/social.svg");
+}
+
+.google-plus {
+    background-image: url("../img/графика/svg/google-plus-social-logotype.svg");
+}
+.socials-item__link:hover {
+    filter: drop-shadow(0 0 10px var(--light-yellow-color));
+    
+}
